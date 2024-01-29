@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import TodoItem from './TodoItem';
 
 export default function Todo() {
     const [todo, setTodo] = useState("");
@@ -22,7 +23,9 @@ export default function Todo() {
             <ul>
                 {
                     list.map((item) => {
-                        return <li key={item}>{item}</li>
+                        return(
+                            <TodoItem key={item} item = {item} />
+                        )
                     })
                 }
             </ul>
