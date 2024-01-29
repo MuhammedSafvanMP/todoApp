@@ -1,0 +1,23 @@
+.list_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list{
+    list-style-type: none;
+    width: 20%;
+    padding: 20px 35px;
+    background-color: aliceblue;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-top: .6rem;
+    box-shadow: whitesmoke 0px 2px 8px 0px;
+    position: relative;
+}
+.delete{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
